@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.2" package="org.gec.gps.service" version="1.0.0">
+    <author email="agodinhost@globo.com" href="http://drianoxaman.blogspot.com.br/">Anaximandro Godinho</author>
+    <description>andygmpub GPS POC.</description>
+    <profile name="wearable"/>
+    <service-application appid="org.gec.gps.service" exec="andygmpub-gps" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>andygmpub-gps</label>
+        <icon>satelite01.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/location</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/location">true</feature>
+    <feature name="http://tizen.org/feature/location.gps">true</feature>
+    <feature name="http://tizen.org/feature/location.gps.satellite">true</feature>
+    
+</manifest>

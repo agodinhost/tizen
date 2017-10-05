@@ -1,0 +1,5 @@
+set sysroot C:\Tools\tizen-1.1.1\platforms\tizen-2.3.2\wearable\rootstraps\wearable-2.3.2-emulator.core
+set debug-file-directory C:\Tools\tizen-1.1.1\platforms\tizen-2.3.2\wearable\rootstraps\wearable-2.3.2-emulator.core\usr\lib\debug
+set solib-search-path C:\Users\agodi\Documents\tizen\andygmpub-gps\Debug
+dir C:\Tools\tizen-1.1.1\platforms\tizen-2.3.2\wearable\rootstraps\wearable-2.3.2-emulator.core\usr\src\debug
+file "C:\Users\agodi\Documents\tizen\andygmpub-gps\Debug\andygmpub-gps"
